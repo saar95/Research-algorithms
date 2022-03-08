@@ -1,3 +1,7 @@
+"""
+A structure called List that allows access to details in the syntax of a multidimensional array
+"""
+
 class List(list):
     def __init__(self, list):
         super().__init__(list)
