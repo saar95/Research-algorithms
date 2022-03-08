@@ -1,13 +1,4 @@
 # Research-algorithms_ex2
-## q1:
-
-
-
-## q2:
-
-
-
-## q3:
 
 
 
