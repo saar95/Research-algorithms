@@ -1,8 +1,9 @@
+"""Functions for computing large cliques and maximum independent sets."""
 import random
-
 import networkx as nx
 import doctest
-
+from networkx.algorithms.approximation import ramsey
+from networkx.utils import not_implemented_for
 
 def build_test_graph_1():
     g = nx.Graph()
