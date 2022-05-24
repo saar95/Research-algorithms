@@ -2,7 +2,7 @@ import gspread
 import numpy as np
 
 
-def sheet_to_list(sheet):
+def extract_val(sheet):
     matrix = []
     for i in sheet:
         temp_l = []
@@ -19,8 +19,8 @@ def multiply_matrices_algorithm(A,B):
     b_matrix = spreadsheet.worksheet(B)
     A_val = a_matrix.get_all_values()
     B_val = b_matrix.get_all_values()
-    matrix_A = np.array(sheet_to_list(A_val))
-    matrix_B = np.array(sheet_to_list(B_val))
+    matrix_A = np.array(extract_val(A_val))
+    matrix_B = np.array(extract_val(B_val))
     result = np.dot(matrix_A, matrix_B)
     title = A+"_times_"+B
     spreadsheet.add_worksheet(title=title, rows=result.shape[0], cols=result.shape[1])
