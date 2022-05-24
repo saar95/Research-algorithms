@@ -1,5 +1,8 @@
 # Research-algorithms_ex8
 
+## q1 screen shots:
+
+![db_image](https://user-images.githubusercontent.com/20986238/170118053-46f47f0a-30c7-4c3c-a863-39b564c7c0d8.jpeg)
 
 
 ## q2 screen shots:
